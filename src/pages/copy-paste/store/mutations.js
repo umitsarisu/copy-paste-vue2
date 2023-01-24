@@ -15,6 +15,10 @@ export const SET_SPARE_PARTS = (state, payload) => {
         return part.viCode == 141;
     })
     state.visual141 = filter141
+    const filteredPartsOthers = state.spareParts.filter((part) => {
+        return part.test != "visual inspection";
+    })
+    state.otherSpareParts = filteredPartsOthers;
 }
 export const SET_PUMP_TESTS = (state, payload) => {
     state.pumpTests = payload;

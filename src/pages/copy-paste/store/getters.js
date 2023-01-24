@@ -13,3 +13,6 @@ export const getVisualFilteredParts = (state) => {
 export const getSelectedPartsVisual = (state) => {
     return state.selectedPartsVisual;
 }
+export const getOtherSpareParts = (state) => {
+    return state.otherSpareParts;
+}

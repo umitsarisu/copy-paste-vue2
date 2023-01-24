@@ -15,6 +15,7 @@ export const store = new Vuex.Store({
         visual141: [],
         visualFilteredParts: [],
         selectedPartsVisual: [],
+        otherSpareParts: [],
         customerExperience: "",
         selectedModel: { class: "plumTrColor" },
         activeComponent: "HomePageVue"

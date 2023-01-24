@@ -139,7 +139,8 @@
       "definition": "Kartlar",
       "explanation": "Güç kartı, elektrik",
       "alt": "(Power PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pole Clamp Assembly",
@@ -181,7 +182,8 @@
       "definition": "Kartlar",
       "explanation": "Peripheral kartı",
       "alt": "(Peripheral PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Peripheral PWA",
@@ -190,7 +192,8 @@
       "definition": "Kartlar",
       "explanation": "Peripheral kartı",
       "alt": "(Peripheral PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Peripheral PWA",
@@ -199,7 +202,8 @@
       "definition": "Kartlar",
       "explanation": "Peripheral kartı",
       "alt": "(Peripheral PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pressure Dedector",
@@ -208,7 +212,8 @@
       "definition": "Diğer...",
       "explanation": "Basınç sensörü strain gauge",
       "alt": "(Pressure Dedector) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "App PWA",
@@ -217,7 +222,8 @@
       "definition": "Kartlar",
       "explanation": "Hava sensörü kartı",
       "alt": "(App PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Mechanism",
@@ -226,7 +232,8 @@
       "definition": "Diğer...",
       "explanation": "Mekanizma",
       "alt": "(Mechanism) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Mechanism Plum 360",
@@ -235,7 +242,8 @@
       "definition": "Diğer...",
       "explanation": "Plum 360 mekanizma",
       "alt": "(Mechanism Plum 360) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Driver PWA",
@@ -244,7 +252,8 @@
       "definition": "Kartlar",
       "explanation": "Arka kart",
       "alt": "(Driver PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "L/S Motor",
@@ -253,7 +262,8 @@
       "definition": "Diğer...",
       "explanation": "Sol motor",
       "alt": "(L/S Motor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "I/O Motor",
@@ -262,7 +272,8 @@
       "definition": "Diğer...",
       "explanation": "Alt motor",
       "alt": "(I/O Motor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Plunger Motor",
@@ -271,7 +282,8 @@
       "definition": "Diğer...",
       "explanation": "Arka motor",
       "alt": "(Plunger Motor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Switch PWA",
@@ -280,7 +292,8 @@
       "definition": "Kartlar",
       "explanation": "Yan kart",
       "alt": "(Switch PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Housing Front",
@@ -421,7 +434,8 @@
       "definition": "Kartlar",
       "explanation": "CPU kartı",
       "alt": "(CPU) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Power PWA",
@@ -430,7 +444,8 @@
       "definition": "Kartlar",
       "explanation": "Güç kartı, elektrik",
       "alt": "(Power PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Peripheral PWA",
@@ -439,7 +454,8 @@
       "definition": "Kartlar",
       "explanation": "Peripheral kartı",
       "alt": "(Peripheral PWA) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Bom PWA Common A+ CE3",
@@ -448,7 +464,8 @@
       "definition": "Kartlar",
       "explanation": "Peripheral parçası",
       "alt": "(Bom PWA Common A+ CE3) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Battery",
@@ -457,7 +474,8 @@
       "definition": "Diğer...",
       "explanation": "Batarya",
       "alt": "(Battery) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Piezo Alarm",
@@ -466,7 +484,8 @@
       "definition": "Diğer...",
       "explanation": "Hoparlör",
       "alt": "(Piezo Alarm) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pwa Antenna Plum CE3.0, SNGL CH",
@@ -475,7 +494,8 @@
       "definition": "Kartlar",
       "explanation": "Anten",
       "alt": "(Pwa Antenna Plum CE3.0, SNGL CH) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Knob Gray 1/8",
@@ -550,7 +570,8 @@
       "definition": "Kablolar",
       "explanation": "switch pwa kablosu beyaz",
       "alt": "(Cable Flat 8 Cond) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cable Flat 20 Cond",
@@ -559,7 +580,8 @@
       "definition": "Kablolar",
       "explanation": "Mekanizma üstteki beyaz kablo",
       "alt": "(Cable Flat 20 Cond) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cable Flex 14 Conductor",
@@ -568,7 +590,8 @@
       "definition": "Kablolar",
       "explanation": "Cpu, beyaz kablo",
       "alt": "(Cable Flex 14 Conductor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Asm Cable Power Sply/Btry",
@@ -577,7 +600,8 @@
       "definition": "Kablolar",
       "explanation": "Power batarya arasındaki kablo",
       "alt": "(Asm Cable Power Sply/Btry) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cpu Driver",
@@ -586,7 +610,8 @@
       "definition": "Kablolar",
       "explanation": "Cpu mechanism gri kablo",
       "alt": "(Cpu Driver) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Asm Cable Motor Power",
@@ -595,7 +620,8 @@
       "definition": "Kablolar",
       "explanation": "Power mechanism kırmızı kablo",
       "alt": "(Asm Cable Motor Power) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Asm Cable Battery",
@@ -604,7 +630,8 @@
       "definition": "Kablolar",
       "explanation": "Batarya kablosu",
       "alt": "(Asm Cable Battery) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Power Kablo",
@@ -624,7 +651,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Üstteki beyaz kablo demiri",
       "alt": "(Filter Gm1 Rbn Ca) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cap Vinyl 1/2 Long Blk",
@@ -655,7 +683,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Üstteki valf pinleri",
       "alt": "(Valve Pin P/S Valve) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Valve Pins I/O Valve",
@@ -664,7 +693,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Alttaki valf pinleri",
       "alt": "(Valve Pins I/O Valve) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Tip Shaft Pole Clamp",
@@ -684,7 +714,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Sft Opener Regulator) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rocker Regulator Opener",
@@ -693,7 +724,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Rocker Regulator Opener) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rocker Regulator Closer",
@@ -713,7 +745,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Cam Stac, Pri) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cam Stac, I/O",
@@ -722,7 +755,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Cam Stac, I/O) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Support Pri/Sec Valve",
@@ -731,7 +765,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Support Pri/Sec Valve) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rocker Pri Valve",
@@ -740,7 +775,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Rocker Pri Valve) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rocker Sec Valve",
@@ -749,7 +785,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Rocker Sec Valve) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rkr Inlet Valve (CC",
@@ -758,7 +795,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Rkr Inlet Valve (CC)) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rkr Outlet Valve",
@@ -767,7 +805,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Rkr Outlet Valve) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Sprt Bot Spr",
@@ -776,7 +815,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Sprt Bot Spr) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Bshg Mot",
@@ -785,7 +825,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Bshg Mot) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Bumper Chassis",
@@ -794,7 +835,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Bumper Chassis) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Housing Clutch",
@@ -814,7 +856,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Pole Clamp kasa parçaları",
       "alt": "(Bracket Pole Clamp) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Lever Cover",
@@ -823,7 +866,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Lever Cover) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Proximal Tubing Guide",
@@ -876,7 +920,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Plate Clmpg Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Tip Distal Pressure Sensor",
@@ -885,7 +930,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Tip Distal Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Spcr Pressure Sensor",
@@ -894,7 +940,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Spcr Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Block Pressure Sensor",
@@ -903,7 +950,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Block Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "O-Ring Pressure Sensor",
@@ -912,7 +960,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(O-Ring Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Lever Door",
@@ -921,7 +970,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Lever Door) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cap Switch Pwa",
@@ -930,7 +980,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Cap Switch Pwa) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Opener Regulator",
@@ -939,7 +990,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Opener Regulator) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Closer Regulator",
@@ -948,7 +1000,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Closer Regulator) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pivot",
@@ -957,7 +1010,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Turuncu parça",
       "alt": "(Pivot) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pl Rear Mech",
@@ -966,7 +1020,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Pl Rear Mech) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Plunger",
@@ -975,7 +1030,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Plunger) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Retainer Plunger",
@@ -984,7 +1040,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Retainer Plunger) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Body Coupler",
@@ -993,7 +1050,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Body Coupler) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Nest Coupler",
@@ -1002,7 +1060,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Nest Coupler) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Shaft Ext Coupler",
@@ -1011,7 +1070,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Shaft Ext Coupler) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Link Door",
@@ -1020,7 +1080,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Link Door) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Clip Hairpin",
@@ -1040,7 +1101,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Shoe I/O Rocker) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Bracket Handle",
@@ -1049,7 +1111,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Pole clamp parçası siyah",
       "alt": "(Bracket Handle) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Plate Backing Pole Clamp",
@@ -1058,7 +1121,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Pole clamp parçası",
       "alt": "(Plate Backing Pole Clamp) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Plate Dampening Rear",
@@ -1067,7 +1131,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Plate Dampening Rear) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Bracket Rear Plate Right",
@@ -1076,7 +1141,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Bracket Rear Plate Right) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Bracket Rear Plate Left",
@@ -1085,7 +1151,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Bracket Rear Plate Left) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Clip Regulator Closer",
@@ -1094,7 +1161,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Clip Regulator Closer) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pin Prox/Distal Pressure Sensor",
@@ -1103,7 +1171,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Pin Prox/Distal Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Retainer Pressure Sensor",
@@ -1112,7 +1181,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Retainer Pressure Sensor) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pin Fixed Cassette Locator",
@@ -1121,7 +1191,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Pin Fixed Cassette Locator) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pad Handle Door Stop",
@@ -1130,7 +1201,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Pad Handle Door Stop) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pad Dampening Rear Plate",
@@ -1139,7 +1211,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Pad Dampening Rear Plate) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Vibraiton Isolator",
@@ -1148,7 +1221,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Vibraiton Isolator) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Sprinf Inlet Valveleaf",
@@ -1157,7 +1231,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Sprinf Inlet Valveleaf) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Spring Outlet Valve Leaf (CCLT",
@@ -1166,7 +1241,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Mekanizma parçaları",
       "alt": "(Spring Outlet Valve Leaf (CCLT)) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Spring Extension 0.063 DIA, 0.25 LG",
@@ -1175,7 +1251,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Plunger küçük yay",
       "alt": "(Spring Extension 0.063 DIA, 0.25 LG) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Spring Skt Extension 1.0 LSS",
@@ -1184,7 +1261,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Handle door yayı",
       "alt": "(Spring Skt Extension 1.0 LSS) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "SPRING, STK, EXTENSION, 0.180 DIA, SS",
@@ -1193,7 +1271,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Plunger yayı",
       "alt": "(SPRING, STK, EXTENSION, 0.180 DIA, SS) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Pri/Sec Valve Leaf Spring",
@@ -1202,7 +1281,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Pri/Sec Valve Leaf Spring) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Spring Cassette Guide",
@@ -1211,7 +1291,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Asmdoor demiri",
       "alt": "(Spring Cassette Guide) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Rivet Push Plastic",
@@ -1220,7 +1301,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Siyah plastik",
       "alt": "(Rivet Push Plastic) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Emi Spring Lcm CE3.0, Upper",
@@ -1229,7 +1311,8 @@
       "definition": "Diğer...",
       "explanation": "Peripheral parçası",
       "alt": "(Emi Spring Lcm CE3.0, Upper) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Ring Rtng .188 x.025 SST",
@@ -1238,7 +1321,8 @@
       "definition": "Diğer...",
       "explanation": "Handle door parçası",
       "alt": "(Ring Rtng .188 x.025 SST) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Ring Rtng .312 x.025 SST",
@@ -1247,7 +1331,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Plunger parçası",
       "alt": "(Ring Rtng .312 x.025 SST) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Ring Rtng 0.140 x  .015 SST",
@@ -1256,7 +1341,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Handle door parçası",
       "alt": "(Ring Rtng 0.140 x  .015 SST) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Washer Shldr #4 Nylon",
@@ -1265,7 +1351,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Peripheral parçası",
       "alt": "(Washer Shldr #4 Nylon) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Washer Cprsn .121ID .045THK STL",
@@ -1274,7 +1361,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Makanizma parçası",
       "alt": "(Washer Cprsn .121ID .045THK STL) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Washer Flat .253 ID .050 Thk",
@@ -1294,7 +1382,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Peripheral parçası",
       "alt": "(Nut 1/4 Hex) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Ring Retainer",
@@ -1314,7 +1403,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "?",
       "alt": "(Nut 4-40 Hex Stl Zn Sml S) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Spacer Display",
@@ -1323,7 +1413,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Display parçası",
       "alt": "(Spacer Display) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Strap Velcro AC Power Cord",
@@ -1343,7 +1434,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Klips",
       "alt": "(Cable Ties) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Ca Tie Plastic Adh Back RW",
@@ -1352,7 +1444,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Ca Tie Plastic Adh Back RW) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Tape Ins 3M 1350 2Mil Wht 1.5",
@@ -1361,7 +1454,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Bant",
       "alt": "(Tape Ins 3M 1350 2Mil Wht 1.5) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Psa Dampening",
@@ -1370,7 +1464,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "mechanism parçası",
       "alt": "(Psa Dampening) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Cover IO Lcm CE3",
@@ -1390,7 +1485,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Siyah",
       "alt": "(Insulator CPU) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Enclosure Gasket",
@@ -1399,7 +1495,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Gasket",
       "alt": "(Enclosure Gasket) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Gasket Tape Switch Board",
@@ -1408,7 +1505,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Gasket Tape Switch Board) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Insulator Batt Comp",
@@ -1417,7 +1515,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Insulator Batt Comp) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Gasket Power Supply",
@@ -1426,7 +1525,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Gasket Power Supply) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Gskt Display Seal (CCLT",
@@ -1435,7 +1535,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Gskt Display Seal (CCLT)) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Tape Gskt",
@@ -1444,7 +1545,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Tape Gskt) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Insulator Lcm Ce3.0",
@@ -1453,7 +1555,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Insulator Lcm Ce3.0) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Splashguard",
@@ -1462,7 +1565,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Splashguard) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Insulator Bracket Handle",
@@ -1471,7 +1575,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Siyah",
       "alt": "(Insulator Bracket Handle) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Gskt Front/Rear Enclosure",
@@ -1480,7 +1585,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Gasket",
       "alt": "(Gskt Front/Rear Enclosure) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Gskt Handle",
@@ -1489,7 +1595,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Gasket",
       "alt": "(Gskt Handle) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Splash Guard (Piezo",
@@ -1498,7 +1605,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Splash Guard (Piezo)) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Insulator Backing Plate",
@@ -1507,16 +1615,18 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Insulator Backing Plate) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Insulator Secondary",
-      "code": "YDK-765-97669-401 yanlış",
+      "code": "YDK-765-97669-401",
       "model": "Plum 360",
       "definition": "Küçük Parçalar",
       "explanation": "Siyah",
       "alt": "(Insulator Secondary) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Gskt Fluid Shield",
@@ -1525,7 +1635,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Shield gasket",
       "alt": "(Gskt Fluid Shield) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Asm Coupler Body/Lead Screw",
@@ -1534,7 +1645,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "",
       "alt": "(Asm Coupler Body/Lead Screw) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Base W/Rubber",
@@ -1576,7 +1688,8 @@
       "definition": "Vidalar",
       "explanation": "Peripheral parçası",
       "alt": "(Rivet 125 Christmas Tree Black) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-24 1/4 Phh Pnh Hilo 18-8sst",
@@ -1585,7 +1698,8 @@
       "definition": "Vidalar",
       "explanation": "Keypad ve Asmdoor vidası",
       "alt": "(Screw 4-24 1/4 Phh Pnh Hilo 18-8sst) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw Jack 4-40, 7/16",
@@ -1605,7 +1719,8 @@
       "definition": "Vidalar",
       "explanation": "Retainer Cord vidası?",
       "alt": "(Screw Lock Conn 4-40) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 6-32, 5/8, Pan Head Philips With Washer",
@@ -1614,7 +1729,8 @@
       "definition": "Vidalar",
       "explanation": "Retainer Cord vidası?",
       "alt": "(Screw 6-32, 5/8, Pan Head Philips With Washer) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 6-32, X3, 1/4, Pan Head",
@@ -1623,7 +1739,8 @@
       "definition": "Vidalar",
       "explanation": "Arka kapak uzun vida",
       "alt": "(Screw 6-32, X3, 1/4, Pan Head) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "SCREW, 6-32, X2, 1/2, PAN HEAD, PHILIPS",
@@ -1632,7 +1749,8 @@
       "definition": "Vidalar",
       "explanation": "Plum 360 arka kapak kisa vida",
       "alt": "(SCREW, 6-32, X2, 1/2, PAN HEAD, PHILIPS) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "SCREW, 6-32, X2, 1/2, PAN HEAD, PHILIPS",
@@ -1641,7 +1759,8 @@
       "definition": "Vidalar",
       "explanation": "Plum 360 arka kapak uzun vida",
       "alt": "(SCREW, 6-32, X2, 1/2, PAN HEAD, PHILIPS) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw Holds Back Case",
@@ -1650,7 +1769,8 @@
       "definition": "Vidalar",
       "explanation": "Arka kapak kisa vida",
       "alt": "(Screw Holds Back Case) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-40, 5/8, Pan Head Philips",
@@ -1659,7 +1779,8 @@
       "definition": "Vidalar",
       "explanation": "Peripheral vidası",
       "alt": "(Screw 4-40, 5/8, Pan Head Philips) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-40, 1/4, Hex Nylon",
@@ -1668,7 +1789,8 @@
       "definition": "Vidalar",
       "explanation": "Peripheral parçaları",
       "alt": "(Screw 4-40, 1/4, Hex Nylon) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-40, 3/8, Button Head SS",
@@ -1677,7 +1799,8 @@
       "definition": "Vidalar",
       "explanation": "Peripheral vidası",
       "alt": "(Screw 4-40, 3/8, Button Head SS) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 6-32, 3/8, Sltd Hwh Type T D",
@@ -1686,7 +1809,8 @@
       "definition": "Vidalar",
       "explanation": "",
       "alt": "(Screw 6-32, 3/8, Sltd Hwh Type T D) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-40, 1/4, Hex Head Sltd W/Washer",
@@ -1695,7 +1819,8 @@
       "definition": "Vidalar",
       "explanation": "Pivot vidası",
       "alt": "(Screw 4-40, 1/4, Hex Head Sltd W/Washer) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 6-32, 3/8, Hex Head Slotted W/Washer",
@@ -1704,7 +1829,8 @@
       "definition": "Vidalar",
       "explanation": "Batarya kapağı vidası",
       "alt": "(Screw 6-32, 3/8, Hex Head Slotted W/Washer) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Emi Spring LCM CE3.0, Lower",
@@ -1713,7 +1839,8 @@
       "definition": "Küçük Parçalar",
       "explanation": "Peripheral parçası",
       "alt": "(Emi Spring LCM CE3.0, Lower) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-40, 3/8, Inhh Sqcn Sl Sem",
@@ -1722,7 +1849,8 @@
       "definition": "Vidalar",
       "explanation": "",
       "alt": "(Screw 4-40, 3/8, Inhh Sqcn Sl Sem) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw 4-20 1/4 Pan Head Philips",
@@ -1731,7 +1859,8 @@
       "definition": "Vidalar",
       "explanation": "Ön kapak mor parça vidası",
       "alt": "(Screw 4-20 1/4 Pan Head Philips) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Screw M2X6 Pnh Sltd Nylon",
@@ -1740,7 +1869,8 @@
       "definition": "Vidalar",
       "explanation": "Peripheral parçası",
       "alt": "(Screw M2X6 Pnh Sltd Nylon) ",
-      "test": "other"
+      "test": "other",
+      "activeClass": "bg-light"
     },
     {
       "name": "Serial Number Cover (Mac Address",

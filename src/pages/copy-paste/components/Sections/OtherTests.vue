@@ -1,85 +1,46 @@
 <template>
-    <form class="row m-0 contentBgColor lr-white-border bottom-white-border" id="OtherTestVue" style="height: 25vh;" @submit="onSubmit">
-        <div class="col-5 p-0 ps-2">
-            <div class="d-flex flex-wrap align-content-around justify-content-around">
-                <div class="input-group">
-                    <label for="errCodeInput" class="textbox-label row w-100">
-                        <span class="col-4 p-0">Hata Kodu: </span>
-                        <div class="col-3 p-0">
-                            <input type="text" id="errCodeInput" class="form-control text-center"
-                                autocapitalize="characters" placeholder="Hata" maxlength="4"
-                                v-model="sparePartInfo.errorCode" required>
-                        </div>
-                    </label>
+    <form class="contentBgColor lr-white-border bottom-white-border overflow-scroll" id="OtherPartsVue"
+        style="height: 100%;">
+        <div class="px-2 pt-1">
+            <div class="text-center w-100">
+                <h4 class="py-1">Other Tests</h4>
+                <div class="input-group my-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Search</span>
+                    </div>
+                    <input class="form-control" type="search" v-model="searchText" placeholder="Search"
+                        aria-label="Search">
                 </div>
-                <div class="input-group">
-                    <label for="spInput" class="textbox-label row w-100"> <span class="col-4 p-0">Parça Adı:</span>
-                        <div class="col-8 p-0">
-                            <input type="text" id="spInput" class="form-control" list="spareParts" autocomplete="off"
-                                v-model="sparePartInfo.name" @click="sparePartInfo.name = ''"
-                                v-on:blur="showSerialInput" v-on:change="findPartNumber" required>
-                            <datalist id="spareParts">
-                                <option v-for="sparePart in spareParts" :value="sparePart.name"></option>
-                            </datalist>
-                        </div>
-                    </label>
-                </div>
-                <div class="input-group">
-                    <label for="pompTestsInput" class="textbox-label row w-100"> <span class="col-4 p-0">Pompa
-                            Testleri:</span>
-                        <div class="col-8 p-0">
-                            <input type="text" id="pompTestsInput" class="form-control" list="pumpTests"
-                                autocomplete="off" v-model="sparePartInfo.selectedTest"
-                                @click="sparePartInfo.selectedTest = ''" required>
-                            <datalist id="pumpTests">
-                                <option v-for="test in pumpTests[0]" :value="test"></option>
-                            </datalist>
-                        </div>
-                    </label>
-                </div>
+                <OtherPartsVue v-for="part in filteredSpareParts" :key="part.code" :part="part"></OtherPartsVue>
             </div>
-        </div>
-        <div class="col-5 p-0">
-            <div class="input-group d-flex flex-column flex-wrap p-0">
-                <label for="damaged">Damaged
-                    <input type="radio" name="radio-buttons" id="damaged" value="damaged" required
-                        v-model="sparePartInfo.defectCode"></label>
-                <label for="missing">Missing
-                    <input type="radio" name="radio-buttons" id="missing" value="missing" required
-                        v-model="sparePartInfo.defectCode"></label>
-                <label for="calibrated">Calibrated
-                    <input type="radio" name="radio-buttons" id="calibrated" value="calibrated" required
-                        v-model="sparePartInfo.defectCode"></label>
-                <label for="defective">Defective
-                    <input type="radio" name="radio-buttons" id="defective" value="defective" required
-                        v-model="sparePartInfo.defectCode" v-on:change="showSerialInput"></label>
-            </div>
-        </div>
-        <div class="col-2 d-flex flex-column p-0">
-            <input type="text" class="btn" :class="btnClass" value="Ekle">
         </div>
     </form>
 </template>
 <script>
-
+import { mapGetters } from 'vuex';
+import OtherPartsVue from "./OtherParts.vue"
 export default {
     data() {
         return {
-            btnClass: "btn-danger",
-            thePartsHaveSerialNumber: ["Power PWA", "CPU", "Peripheral PWA", "Driver PWA", "App PWA", "Mechanism"],
-            needSerial: false,
-            spareParts: "",
-            pumpTests: "",
-            sparePartInfo: {
-                id: null,
-                name: null,
-                test: null,
-                partNumber: null,
-                errorCode: null,
-                defect: null,
-                serialNumber: null
-            }
+            searchText: "",
         }
+    },
+    computed: {
+        ...mapGetters([
+            "getOtherSpareParts",
+        ]),
+        filteredSpareParts() {
+            const searchText = this.searchText.toLocaleLowerCase('tr')
+            return this.getOtherSpareParts.filter((part) => {
+                if (part.name.toLocaleLowerCase('tr').match(searchText) ||
+                    part.code.toLocaleLowerCase('tr').match(searchText) ||
+                    part.explanation.toLocaleLowerCase('tr').match(searchText)
+                ) return part
+            })
+        }
+    },
+    components: {
+        OtherPartsVue
     },
     methods: {
         btnAction() {
@@ -106,7 +67,7 @@ export default {
             }
         },
     },
-    
+
 }
 </script>
 <style scoped>
