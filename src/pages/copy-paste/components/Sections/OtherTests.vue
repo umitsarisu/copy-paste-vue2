@@ -8,10 +8,10 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">Search</span>
                     </div>
-                    <input class="form-control" type="search" v-model="searchText" placeholder="Search"
-                        aria-label="Search">
+                    <input class="form-control" type="search" v-model="searchText" placeholder="Search" aria-label="Search">
                 </div>
-                <OtherPartsVue v-for="part in filteredSpareParts" :key="part.code" :part="part"></OtherPartsVue>
+                <OtherPartsVue v-for="part in filteredSpareParts" :key="part.code" :part="part">
+                </OtherPartsVue>
             </div>
         </div>
     </form>
@@ -23,102 +23,32 @@ export default {
     data() {
         return {
             searchText: "",
+            selectedParts: []
         }
     },
     computed: {
         ...mapGetters([
-            "getOtherSpareParts",
+            "getFilteredOtherParts"
         ]),
         filteredSpareParts() {
             const searchText = this.searchText.toLocaleLowerCase('tr')
-            return this.getOtherSpareParts.filter((part) => {
+            return this.getFilteredOtherParts.filter((part) => {
                 if (part.name.toLocaleLowerCase('tr').match(searchText) ||
                     part.code.toLocaleLowerCase('tr').match(searchText) ||
                     part.explanation.toLocaleLowerCase('tr').match(searchText)
                 ) return part
             })
-        }
+        },
     },
     components: {
-        OtherPartsVue
+        OtherPartsVue,
     },
     methods: {
-        btnAction() {
-            this.btnClass = "btn-success";
-        },
-        sendSparePartInfo() {
-            this.sparePartInfo.id = this.sparePartInfo.name;
-        },
-        findPartNumber() {
-            // this.spareParts.forEach(item => {
-            //     if (item.name == this.sparePartInfo.selectedPart) {
-            //         this.sparePartInfo.selectedPartCode = item.code
-            //     }
-            // });
-        },
         onSubmit(e) {
             e.preventDefault();
-            this.btnAction();
-            this.sendSparePartInfo();
         },
-        showSerialInput() {
-            if (this.thePartsHaveSerialNumber.includes(this.sparePartInfo.selectedPart) && this.sparePartInfo.defectCode == "defective") {
-                this.needSerial = true;
-            }
-        },
-    },
-
+    }
 }
 </script>
 <style scoped>
-input[type="submit"] {
-    height: 100%;
-    border-radius: 0 10px 10px 0;
-}
-
-
-
-.right-white-border {
-    border-right: 1px solid white;
-}
-
-.input-group {
-    max-width: 400px;
-    padding: 5px 0;
-}
-
-.top-white-border {
-    border-top: 1px solid white;
-}
-
-#errorTextInput {
-    width: 55px;
-}
-
-input[type="text"] {
-    height: 35px;
-    padding: 4px;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-input[type="radio"] {
-    margin: 5px;
-}
-
-label {
-    font-size: 14px;
-    line-height: 30px;
-}
-
-.textbox-label {
-    line-height: 30px;
-    font-weight: bold;
-}
-
-.row {
-    padding: 0;
-    margin: 0;
-}
 </style>

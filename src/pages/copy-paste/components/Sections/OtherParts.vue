@@ -9,10 +9,14 @@
             <span style="width: 50px;">{{ part.viCode }}</span>
             <span class="d-none d-lg-block" style="border: none;">{{ "(" + part.explanation + ")" }}</span>
         </div>
+        <SerialNumberCardVue v-if="serialContentVisible" :part="part"></SerialNumberCardVue>
     </div>
 </template>
 <script>
+import { mapGetters } from 'vuex';
 import { mapMutations } from 'vuex';
+import SerialNumberCardVue from "./SerialNumberCard.vue"
+
 export default {
     data() {
         return {
@@ -20,9 +24,22 @@ export default {
         }
     },
     props: ["part"],
+    components: {
+        SerialNumberCardVue
+    },
+    computed:{
+        ...mapGetters([
+            "getSerialContentVisible"
+        ]),
+        serialContentVisible(){
+            return this.getSerialContentVisible
+        }
+    },
     methods: {
         ...mapMutations([
-            "setSelectedPartsVisual"
+            "setSelectedPartsOther",
+            "deleteSelectedPartOther",
+            "setSerialContentVisible"
         ]),
         findImage(part) {
             return require("../../assets/imagesYdk/" + part.code + ".jpg")
@@ -30,17 +47,18 @@ export default {
         selectPart(part) {
             if (part.activeClass == "bg-light") {
                 part.activeClass = "bg-success";
-                this.$store.commit("setSelectedPartsVisual", part)
+                this.$store.commit("setSelectedPartsOther", part)
             }
             else {
                 part.activeClass = "bg-light";
-                this.$store.commit("deleteSelectedPartVisual", part)
+                this.$store.commit("deleteSelectedPartOther", part)
             }
+            this.$store.commit("setSerialContentVisible", true)
         }
     }
 }
 </script>
-<style>
+<style scoped>
 .partStyle {
     width: 100%;
     border: 1px solid saddlebrown;

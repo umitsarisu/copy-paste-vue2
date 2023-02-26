@@ -17,13 +17,13 @@ import { mapMutations } from 'vuex';
 export default {
     data() {
         return {
-            activeClass: "bg-light"
         }
     },
     props: ["part"],
     methods: {
         ...mapMutations([
-            "setSelectedPartsVisual"
+            "setSelectedPartsVisual",
+            "deleteSelectedPartVisual"
         ]),
         findImage(part) {
             return require("../../assets/imagesYdk/" + part.code + ".jpg")

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { store } from './pages/copy-paste/store/store'
+import { store } from './pages/store/store'
 
 
 new Vue({

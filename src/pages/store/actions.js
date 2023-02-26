@@ -12,3 +12,9 @@ export const getPumpTests = ({ commit }) => {
             commit("SET_PUMP_TESTS", response.data)
         })
 }
+export const getCurrentCodes = ({ commit }) => {
+    axios.get("http://localhost:3000/CURRENT_CODES")
+        .then(response => {
+            commit("SET_CURRENT_CODES", response.data)
+        })
+}

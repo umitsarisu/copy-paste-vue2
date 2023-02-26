@@ -8,17 +8,25 @@ Vue.use(Vuex);
 
 export const store = new Vuex.Store({
     state: {
-        spareParts: [],
         pumpTests: [],
-        visualSparePartsAll: [],
-        visual122: [],
-        visual141: [],
-        visualFilteredParts: [],
-        selectedPartsVisual: [],
-        otherSpareParts: [],
+        spareParts: {
+            all: [],
+            visual: [],
+            other: []
+        },
+        filtered: {
+            visualParts: [],
+            otherParts: []
+        },
+        selected: {
+            visualParts: [],
+            otherParts: []
+        },
+        currentCodes: [],
         customerExperience: "",
         selectedModel: { class: "plumTrColor" },
-        activeComponent: "HomePageVue"
+        activeComponent: "HomePageVue",
+        serialContentVisible: false
     },
     mutations,
     getters,

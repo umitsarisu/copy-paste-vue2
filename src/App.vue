@@ -10,14 +10,16 @@
 
 <script>
 import CopyAppVue from './pages/copy-paste/CopyPaste.vue';
+import CurrentCodesVue from './pages/current-codes/CurrentCodes.vue'
 export default {
   data: function () {
     return {
-      selectedComponent: "CopyAppVue"
+      selectedComponent: "CurrentCodesVue"
     }
   },
   components: {
     CopyAppVue,
+    CurrentCodesVue
   }
 }
 </script>

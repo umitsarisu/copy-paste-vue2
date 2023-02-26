@@ -23,25 +23,15 @@
                             @click="$store.commit('deleteSelectedPartVisual', part)"
                             class="btn btn-danger btn-close"></td>
                 </tr>
-                <tr v-for="part in sparePartsList">
-                    <td class="d-flex flex-column">
-                        <span>
-                            {{ part.name }}
-                        </span>
-                        <span>
-                            {{ part.partNumber }}
-                        </span>
-                    </td>
-                    <td>{{ part.test }}</td>
-                    <td>{{ part.errorCode }}</td>
-                    <td>{{ part.defect }}</td>
-                    <td>{{ part.serialNumber }}</td>
-                    <td><button class="btn btn-danger ">Delete</button></td>
-                </tr>
-                <tr v-for="part in spareParts">
-                    <td> {{ part.name }}</td>
-                    <td> {{ part.code }}</td>
-                    <td> {{ part.model }}</td>
+                <tr v-for="part in getSelectedPartsOther">
+                    <td>{{ part.name }}</td>
+                    <td>{{ part.code }}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-center py-1"><input type="button"
+                            @click="$store.commit('deleteSelectedPartOther', part)"
+                            class="btn btn-danger btn-close"></td>
                 </tr>
             </tbody>
         </table>
@@ -59,12 +49,14 @@ export default {
     },
     computed: {
         ...mapGetters([
-            "getSelectedPartsVisual"
+            "getSelectedPartsVisual",
+            "getSelectedPartsOther"
         ])
     },
     methods: {
         ...mapMutations([
-            "deleteSelectedPartVisual"
+            "deleteSelectedPartVisual",
+            "deleteSelectedPartOther"
         ])
     }
 }

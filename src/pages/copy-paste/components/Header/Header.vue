@@ -18,13 +18,13 @@
                     autocapitalize="characters" v-model="customerExperience" required>
             </label>
             <!-- Meditera Site Link-->
-            <a href="http://www.meditera.com.tr" class="d-none d-sm-block" target="_blank"><img
-                    src="../../assets/logo.png" alt="mediteralogo"></a>
+            <a href="http://www.meditera.com.tr" class="d-none d-sm-block" target="_blank"><img src="../../assets/logo.png"
+                    alt="mediteralogo"></a>
         </div>
     </form>
 </template>
 <script>
-import { selectedModel } from '../../store/getters';
+import { selectedModel } from '../../../store/getters';
 
 export default {
     data() {
@@ -46,6 +46,7 @@ export default {
                     type: "Plum 360"
                 }
             ],
+            selectedModel: "",
         }
     },
     computed: {
@@ -56,14 +57,11 @@ export default {
             set(value) {
                 this.$store.commit("setCustomerExperience", value);
             }
-        },
-        selectedModel: {
-            get(){
-                return this.$store.getters.selectedModel
-            },
-            set(value) {
-                this.$store.state.selectedModel = value
-            }
+        }
+    },
+    watch: {
+        selectedModel(){
+            this.$store.commit("setSelectedModel", this.selectedModel)
         }
     }
 }

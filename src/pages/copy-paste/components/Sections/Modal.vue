@@ -12,11 +12,6 @@
                 <div class="modal-body modal-xl" style="height: 70vh;">
                     <slot></slot>
                 </div>
-                <div class="modal-footer" v-if="activeComponent != 'VisualInspectionVue'">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <input type="submit" class="btn btn-danger" form="OtherTestVue" @click.prevent="submit"
-                        value="Ekle">
-                </div>
             </div>
         </div>
     </div>
